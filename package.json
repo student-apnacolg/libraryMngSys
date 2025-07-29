@@ -1,0 +1,26 @@
+{
+  "name": "librarymngsys",
+  "version": "1.0.0",
+  "description": "library management api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/student-apnacolg/libraryMngSys.git"
+  },
+  "author": "nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/student-apnacolg/libraryMngSys/issues"
+  },
+  "homepage": "https://github.com/student-apnacolg/libraryMngSys#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
