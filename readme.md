@@ -7,7 +7,7 @@
 
 ## /Users
 
-GET: Get all the users in the system
+GET: Get all the list of users in the system
 POST: Create/Register a new user
 
 

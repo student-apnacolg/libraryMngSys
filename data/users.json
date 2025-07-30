@@ -1,38 +1,59 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alice Smith",
       "email": "smith@gmail.com",
       "registeredDate": "2022-01-15",
-      "borrowedBooks": [1, 2]
+      "issuedBooks": "1",
+      "issuedDate": "2023-05-01",
+      "returnDate": "2023-06-01",
+      "subscriptionType": "Premium",
+      "subscriptionDate": "2023-04-01"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Bob Johnson",
       "email": "johnson@gmail.com",
       "registeredDate": "2021-06-20",
-      "borrowedBooks": [3, 4]
+      "issuedBooks": "2",
+      "issuedDate": "2023-06-01",
+      "returnDate": "2023-07-01",
+      "subscriptionType": "Standard",
+      "subscriptionDate": "2023-05-01"
     },
-    {      "id": 3,
+    {  
+      "id": "3",
       "name": "Charlie Brown",
       "email": "brown@gmail.com",
       "registeredDate": "2023-03-10",
-      "borrowedBooks": [5]
+      "issuedBooks": "",
+      "issuedDate": "2023-07-01",
+      "returnDate": "2023-08-01",
+      "subscriptionType": "Basic",
+      "subscriptionDate": "2023-06-01"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Diana Prince",
       "email": "prince@gmail.com",
       "registeredDate": "2020-11-05",
-      "borrowedBooks": []
+      "issuedBooks": "4",
+      "issuedDate": "2023-08-01",
+      "returnDate": "2023-09-01",
+      "subscriptionType": "Premium",
+      "subscriptionDate": "2023-07-01"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Ethan Hunt",
       "email": "hunt@gmail.com",
       "registeredDate": "2022-08-25",
-      "borrowedBooks": [1, 3, 5]
+      "issuedBooks": "5",
+      "issuedDate": "2023-09-01",
+      "returnDate": "2023-10-01",
+      "subscriptionType": "Standard",
+      "subscriptionDate": "2023-08-01"
     }
   ]
 }
