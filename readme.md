@@ -65,6 +65,19 @@ npm init
 npm i express
 npm i nodemon --save-dev
 
+npm i mongoose
+npm i mongodb
+npm i dotenv
+
 npm run dev
 
 To restore node modules and package-lock.json --> npm i/npm install
+
+
+## MVC Architecture
+
+>> Model (Data layer of the application/Structure of our MongoDB database)
+>> View (Frontend/Presentation layer)
+>> Controller (Brain/logic of the routes and the endpoints)
+
+## DTO (Data Transfer Object)

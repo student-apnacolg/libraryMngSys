@@ -16,9 +16,6 @@
       "name": "Bob Johnson",
       "email": "johnson@gmail.com",
       "registeredDate": "2021-06-20",
-      "issuedBooks": "2",
-      "issuedDate": "2023-06-01",
-      "returnDate": "2023-07-01",
       "subscriptionType": "Standard",
       "subscriptionDate": "2023-05-01"
     },
@@ -27,7 +24,7 @@
       "name": "Charlie Brown",
       "email": "brown@gmail.com",
       "registeredDate": "2023-03-10",
-      "issuedBooks": "",
+      "issuedBooks": "3",
       "issuedDate": "2023-07-01",
       "returnDate": "2023-08-01",
       "subscriptionType": "Basic",
@@ -38,9 +35,6 @@
       "name": "Diana Prince",
       "email": "prince@gmail.com",
       "registeredDate": "2020-11-05",
-      "issuedBooks": "4",
-      "issuedDate": "2023-08-01",
-      "returnDate": "2023-09-01",
       "subscriptionType": "Premium",
       "subscriptionDate": "2023-07-01"
     },

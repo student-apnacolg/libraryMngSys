@@ -1,15 +1,20 @@
 const express = require('express');
-const app = express();
+const dotenv = require('dotenv');
+dotenv.config();
 
-const PORT = process.env.PORT || 3000;
-
-app.use(express.json());
+// Importing the database connection function
+const connectDB = require('./dataBaseConn.js');
 
 // Importing routes for users and books
 // This allows us to separate concerns and keep the code organized
 const userRoutes = require('./routes/users.js');
 const bookRoutes = require('./routes/books.js');
 
+const PORT = process.env.PORT || 3000;
+const app = express();
+app.use(express.json());
+
+connectDB(); // Establishing the database connection
 
 // Home Page route
 app.get('/', (req, res) => {
